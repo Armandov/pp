@@ -1,0 +1,78 @@
+
+                                                              ..                           
+                                                              cK.                          
+.;;;. ;:.  .:;..;  ., .;;;..;    .;.    .;;,   ';;,     ,:'  .xd.  ';,.  .;   ,:;.  .:;.  
+kN00'xXOx 'NXKxlM. :N.dW0O'lM.   kMk    lMKXX, NXOO.   xW0N.cWKKW: XN0Nx ;M. ONOK0 cW0KW: 
+kx   Xd   O0  .lM. :N.xK   lM.  .NKW.   lM. OK.No     :M: ..Nk  OK.Xx ;W:;M.lN.  ..No  OK 
+kXOd xWO'.Nl   lM. :N.xWOx lM.  cK,Ml   lM. :W'NXOl   xN.  'M;  cN.Xx  Kd;M.Ox odc,M'  cN.
+k0;,  :KX.Xo   lM. :N.xX;, lM.  O0lN0   lM. cW.Nk;'   dN.  ,M;  lX.Xx  Xo;M.Ok lKK;M'  lX 
+kx  ., oN.OK..':Ml xK xK.  lM,..WOx0W'  lM,'KO.Nd     :Mo.,'NO..Kk Xx.lW,;M.lW; xK.Nx..Kk 
+kWNNcXXNo .KWNo kWNN; dMNN,cMWW0X  .Nl  cMNNO. XWNX.   oWNX.cNNWK. KWNXl ;M. xWNWO cNNWK. 
+.... .'.    '.   .'.   ...  .....   ..   ...   ....     .'.   ..   ...    .   .'.   .'.  
+              ...                                                                                
+             ......                                                                               
+             ......                      ..                                                       
+.;:ccc:,.     .....  ':::.           ';cllc:,.      ';cccc;'.      .,,;:cccc.   .,:cccc:'         
+.lOOOOOOOOkl.  ;;,c.  lOOk,         ,xOOOOOOOOx.   ,xOOOOOOOOx'   .coooodxxOO;' ckOOOOOOOOd.       
+:OOOdc:oOOOk,  :llo.  lOOk,        .kOOOo:cxOOOl   dOOOo:cxOOOl   cooo:;;;;;;o0kOOOkl:lxOOO:       
+lOOk,  .xOOO,  :ooo.  lOOk,        .OOOk.  'OOOo  .xOOx.  ;OOOo  .oooc       cK0OOOd.  ,ddd;       
+lOOk, .,dOOO,  :ooo.  lOOk,        .OOOk.  'OOOo  .xOOx.  ,OOOo  .oooc         .dOOd        ...    
+lOOk, .,dOOO,  :ooo.  lOOk,        .OOOk.  'OOOo  .xOOx.  ,OOOo  .oooc.        .:xkd.     .:lcc.   
+lOOkc;;oxdxk.  :ooo.  lOOk,        .OOOk::lxOOOo  .xOOk;;lx0kd;  .oo;.,:ccc'   'l;cddl;'..clcll.   
+lOOkxkxdooll   :ooo.  lOOk,        .OOOOOOOOOOOo  .xOOOOOOOd,;.  .l,   ;ooo;    ,,.lkOOOkkdlc:;'.. 
+lOOdoo;'..;l   :ooo.  lOOk, .      .OOOOxl:cOOOo  ,kOOOxokOc ..  .,'   ...'.      .';cdkOOkl,''... 
+lOx,;,.  .::.  :ooo.  lOOk;lo      .OOOk.  'OOOo .;kOOx. lOl,,   .oocc.           ':.  cOOOo'..''. 
+lkol,,   .oo.  :ooo.  lOOklOO.     .OOOk.  'OOOo  ;xOOx. 'kxxx'  .ooOXOc  ...  ..';:'  ;OOOo..'',  
+lkkOkk,  ,k0.  :ooo.  lOOOldxl,.   .OOkk.  'OOOd..:oOOx.  lxxxl  .ooO0k, .::.  ,kkc:'  :OOOo,;:ldl.
+lkdo,..  ....  :ooo.  ;OOOkkkxdxo. ,koox.  'OOOk:':xOOx.  .oxdx,  cokxklllooc. .kOc'ldxkOOkxdddddd.
+lkkO,.    .   .:ooo.   ;dkOOkddkx. :XXKK,  'Okxo..,xOOx.   ;kxkd. .:ddxdooool.  'lc:lkOOxdxkkkxd:. 
+....            ...      ...''.,.  .ccc:.   ...........    .....     .......       .....  .....         
+ 
+# "r"- Leer: valor predeterminado. Abre un archivo para lectura, error si el archivo no existe
+
+# "a" - Agregar: abre un archivo para agregarlo, crea el archivo si no existe
+
+# "w" - Escribir: abre un archivo para escribir, crea el archivo si no existe
+
+# "x" - Crear: crea el archivo especificado, devuelve un error si el archivo existe
+
+# Además, puede especificar si el archivo debe manejarse en modo binario o de texto.
+
+# "t"- Texto: valor predeterminado. Modo texto
+
+# "b" - Binario - Modo binario (por ejemplo, imágenes)
+
+armand@PC:/mnt/d/Documents/HTML/api$ curl -O https://bootstrap.pypa.io/get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1901k  100 1901k    0     0  1793k      0  0:00:01  0:00:01 --:--:-- 1791k
+armand@PC:/mnt/d/Documents/HTML/api$ python get-pip.py
+ERROR: This script does not work on Python 2.7 The minimum supported Python version is 3.6. Please use https://bootstrap.pypa.io/pip/2.7/get-pip.py instead.
+armand@PC:/mnt/d/Documents/HTML/api$ pytho3 get-pip.py
+
+Command 'pytho3' not found, did you mean:
+
+  command 'python3' from deb python3 (3.8.2-0ubuntu2)
+
+Try: sudo apt install <deb name>
+
+armand@PC:/mnt/d/Documents/HTML/api$ python3 get-pip.py
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pip
+  Downloading pip-21.2.4-py3-none-any.whl (1.6 MB)
+     |████████████████████████████████| 1.6 MB 1.5 MB/s
+Collecting wheel
+  Downloading wheel-0.37.0-py2.py3-none-any.whl (35 kB)
+Installing collected packages: wheel, pip
+  WARNING: The script wheel is installed in '/home/armand/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts pip, pip3 and pip3.8 are installed in '/home/armand/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+
+pip install requests
+pip install beautifulsoup4
+pip install simplekml
+
+
+sudo pip install requests
